@@ -7,4 +7,5 @@
   </samp>
 </p>
 <p align="center"><i>Majoring in Data Science, currently attempting to be a coder.</i></p>
+<p align="center"><i>My footsteps long to wander, but my heart yearns to navigate.</i></p>
 <p align="center"><i>El · Psy · Kongroo</i></p>
