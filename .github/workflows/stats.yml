@@ -1,0 +1,50 @@
+name: Update GitHub Stats Gist
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: '0 */12 * * *'
+    push:
+        branches: master
+jobs:
+    run:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/setup-node@master
+              with:
+                  node-version: 16
+
+            - name: Cache dependencies
+              uses: actions/cache@v3
+              with:
+                  path: ~/.npm
+                  key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+                  restore-keys: |
+                    ${{ runner.os }}-node-
+                    
+            # If you edit the .js files and want to run them in your GitHub Action, you need to:
+            # - uncomment the 2 following lines
+            # - replace "npx github-stats-box@1" with "npm start"
+            # N.B: Your action will not receive future updates if you do so
+
+            # - uses: actions/checkout@master
+            # - run: npm ci
+            - name: Github stats box
+              run: npx github-stats-box@1
+              env:
+                  GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
+                  # Edit the following environment variables
+                  GIST_ID: 65a60362e809d7f670aa85a2036be919 # The ID portion from your gist url
+                  ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
+                  K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
+
+            - name: Github languages Stats box
+              run: |
+                git clone https://github.com/Aveek-Saha/lang-stats-box
+                cd ./lang-stats-box
+                npm install
+                node index.js
+              env:
+                GIST_ID: 19b0e303bb5339cd1ecb58e48d710389
+                GH_TOKEN: ${{ secrets.GH_TOKEN }}
+                GH_USERNAME: MaxChang3
+                EXCLUDE: ${{ secrets.EXCLUDE }}
