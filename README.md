@@ -3,6 +3,7 @@
   <samp>
     <a href="https://zhangmaimai.com">me</a> .
     <a href="https://zhangmaimai.com">blog</a> .
+    <a href="https://github.com/stars/maxchang3/lists/use">use</a> .
     <a href="https://github.com/MaxChang3?tab=repositories&q=&type=&language=&sort=stargazers">projects</a>
   </samp>
 </p>
