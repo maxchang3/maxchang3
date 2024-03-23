@@ -38,13 +38,10 @@ jobs:
                   K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
 
             - name: Github languages Stats box
-              run: |
-                git clone https://github.com/Aveek-Saha/lang-stats-box
-                cd ./lang-stats-box
-                npm install
-                node index.js
+              run: npx github-lang-box
               env:
                 GIST_ID: 19b0e303bb5339cd1ecb58e48d710389
                 GH_TOKEN: ${{ secrets.GH_TOKEN }}
                 GH_USERNAME: MaxChang3
                 EXCLUDE: ${{ secrets.EXCLUDE }}
+                DESCRIPTION: "Max Chang's Language Stats"
