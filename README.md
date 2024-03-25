@@ -8,5 +8,4 @@
   </samp>
 </p>
 <p align="center"><i>Majoring in Data Science, currently attempting to be a coder.</i></p>
-<p align="center"><i>My footsteps long to sail, but my heart yearns to berth.</i></p>
-<p align="center"><i>El · Psy · Kongroo</i></p>
+<p align="right"><i>El · Psy · Kongroo</i></p>
