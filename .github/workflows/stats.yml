@@ -38,7 +38,7 @@ jobs:
                   K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
 
             - name: Github languages Stats box
-              run: npx github-lang-box
+              run: npx github-lang-box@1
               env:
                 GIST_ID: 19b0e303bb5339cd1ecb58e48d710389
                 GH_TOKEN: ${{ secrets.GH_TOKEN }}
