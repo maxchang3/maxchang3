@@ -1,4 +1,4 @@
-<p align="center">Hi, It's <code>Max</code>! :P</p>
+<p align="center">Hi, It's <code>Max</code>!</p>
 <p align="center">
   <samp>
     <a href="https://maxchang.me/about">me</a> .
