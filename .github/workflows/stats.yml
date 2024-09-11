@@ -44,4 +44,5 @@ jobs:
                 GH_TOKEN: ${{ secrets.GH_TOKEN }}
                 GH_USERNAME: MaxChang3
                 EXCLUDE: ${{ secrets.EXCLUDE }}
+                EXCLUDE_REPO: ${{ secrets.EXCLUDE_REPO }}
                 DESCRIPTION: "Max Chang's Language Stats"
