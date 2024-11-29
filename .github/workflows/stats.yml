@@ -43,6 +43,6 @@ jobs:
                 GIST_ID: 19b0e303bb5339cd1ecb58e48d710389
                 GH_TOKEN: ${{ secrets.GH_TOKEN }}
                 GH_USERNAME: MaxChang3
-                EXCLUDE: ${{ secrets.EXCLUDE }}
+                EXCLUDE: ${{ vars.EXCLUDE }}
                 EXCLUDE_REPO: ${{ vars.EXCLUDE_REPO }}
                 DESCRIPTION: "Max Chang's Language Stats"
