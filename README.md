@@ -7,6 +7,7 @@
     <a href="https://maxchang.me/projects">"projects"</a>
   </samp>
 </p>
-<p align="center"><i>Majoring in Data Science, I am currently aspiring to become a coder and an open sourceror.</i></p>
+<p align="center"><i>Data Science major. Frontend & TypeScript enthusiast. Maybe a future open sourceror.</i></p>
+<p align="right"><sup><i>Currently on the lookout for a good job! :)</i></sup></p>
 <p align="center">You can leave me a message <a href="https://github.com/maxchang3/maxchang3/discussions/1">here</a> ~</p>
 <p align="right"><i>El · Psy · Kongroo</i></p>
