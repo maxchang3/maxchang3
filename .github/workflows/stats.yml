@@ -4,7 +4,9 @@ on:
     schedule:
         - cron: '0 */12 * * *'
     push:
-        branches: master
+        branches: main
+        paths:
+          - ".github/workflows/stats.yml"
 jobs:
     run:
         runs-on: ubuntu-latest
