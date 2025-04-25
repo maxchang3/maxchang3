@@ -28,15 +28,21 @@ jobs:
 
             # - uses: actions/checkout@master
             # - run: npm ci
-            - name: Github stats box
-              run: npx github-stats-box@1
+            # - name: Github stats box
+            #   run: npx github-stats-box@1
+            #   env:
+            #       GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
+            #       # Edit the following environment variables
+            #       GIST_ID: 65a60362e809d7f670aa85a2036be919 # The ID portion from your gist url
+            #       ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
+            #       K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
+            - name: Activity box
+              uses: JasonEtco/activity-box@master
               env:
-                  GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
-                  # Edit the following environment variables
-                  GIST_ID: 65a60362e809d7f670aa85a2036be919 # The ID portion from your gist url
-                  ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
-                  K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
-
+                GH_PAT: ${{ secrets.GH_TOKEN }}
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                GH_USERNAME: maxchang3
+                GIST_ID: 65a60362e809d7f670aa85a2036be919
             - name: Github languages Stats box
               run: npx github-lang-box@1.1.0-beta.3
               env:
