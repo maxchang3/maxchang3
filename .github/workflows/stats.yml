@@ -39,7 +39,7 @@ jobs:
             #       ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
             #       K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
             - name: Activity box
-              uses: JasonEtco/activity-box@master
+              run: npx github-activity-box@0
               env:
                 GH_PAT: ${{ secrets.GH_TOKEN }}
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
