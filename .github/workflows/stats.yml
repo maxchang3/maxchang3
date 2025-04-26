@@ -28,8 +28,8 @@ jobs:
             # - replace "npx github-stats-box@1" with "npm start"
             # N.B: Your action will not receive future updates if you do so
 
-            - uses: actions/checkout@master
-            - run: npm ci
+            # - uses: actions/checkout@master
+            # - run: npm ci
             - name: Github stats box
               run: npx github-stats-box@1
               env:
