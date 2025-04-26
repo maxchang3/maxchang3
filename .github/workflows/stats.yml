@@ -28,23 +28,23 @@ jobs:
             # - replace "npx github-stats-box@1" with "npm start"
             # N.B: Your action will not receive future updates if you do so
 
-            # - uses: actions/checkout@master
-            # - run: npm ci
-            # - name: Github stats box
-            #   run: npx github-stats-box@1
-            #   env:
-            #       GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
-            #       # Edit the following environment variables
-            #       GIST_ID: 65a60362e809d7f670aa85a2036be919 # The ID portion from your gist url
-            #       ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
-            #       K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
-            - name: Activity box
-              run: npx github-activity-box@0
+            - uses: actions/checkout@master
+            - run: npm ci
+            - name: Github stats box
+              run: npx github-stats-box@1
               env:
-                GH_PAT: ${{ secrets.GH_TOKEN }}
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                GH_USERNAME: maxchang3
-                GIST_ID: 65a60362e809d7f670aa85a2036be919
+                  GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
+                  # Edit the following environment variables
+                  GIST_ID: 65a60362e809d7f670aa85a2036be919 # The ID portion from your gist url
+                  ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
+                  K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
+            # - name: Activity box
+            #   run: npx github-activity-box@0
+            #   env:
+            #     GH_PAT: ${{ secrets.GH_TOKEN }}
+            #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            #     GH_USERNAME: maxchang3
+            #     GIST_ID: 65a60362e809d7f670aa85a2036be919
             - name: Github languages Stats box
               run: npx github-lang-box@2
               env:
