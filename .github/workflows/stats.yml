@@ -46,7 +46,7 @@ jobs:
                 GH_USERNAME: maxchang3
                 GIST_ID: 65a60362e809d7f670aa85a2036be919
             - name: Github languages Stats box
-              run: npx github-lang-box@1.1.0-beta.3
+              run: npx github-lang-box@v2.0.0-beta.1
               env:
                 GIST_ID: 5ce70ffc872c8c4f61f7185ba859b550 
                 GH_TOKEN: ${{ secrets.GH_TOKEN }}
