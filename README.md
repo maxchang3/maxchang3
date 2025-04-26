@@ -8,6 +8,8 @@
   </samp>
 </p>
 <p align="center"><i>Data Science major. Frontend & TypeScript enthusiast. Maybe a future open sourceror.</i></p>
-<p align="right"><sup><i>Currently on the lookout for a good job, or considering further studies :)</i></sup></p>
 <p align="right">📫 Contact me at <a href="mailto:hi@maxchang.me">hi@maxchang.me</a></p>
-<p align="right"><i>El · Psy · Kongroo</i></p>
+<p align="right"><sup><i>Currently on the lookout for a good job, or considering further studies :)</i></sup></p>
+<p align="right">
+  <img src="https://readme-typing-svg.demolab.com?font=Coral+Pixels&size=15&pause=1000&color=000000&center=true&vCenter=true&width=120&height=25&lines=El+%C2%B7+Psy+%C2%B7+Kongroo" alt="Typing SVG" />
+</p>
