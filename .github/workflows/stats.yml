@@ -45,6 +45,8 @@ jobs:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 GH_USERNAME: maxchang3
                 GIST_ID: 65a60362e809d7f670aa85a2036be919
+                EXCLUDE_OWNER: ${{ vars.EXCLUDE_OWNER }}
+                DESCRIPTION: "Max Chang's Recent Activities"
             - name: Github Languages box
               run: npx github-lang-box@2
               env:
