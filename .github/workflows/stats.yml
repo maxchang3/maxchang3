@@ -36,7 +36,6 @@ jobs:
               run: npx github-activity-box@0
               env:
                 GH_PAT: ${{ secrets.GH_TOKEN }}
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 GH_USERNAME: maxchang3
                 GIST_ID: 65a60362e809d7f670aa85a2036be919
                 EXCLUDE_OWNER: ${{ vars.EXCLUDE_OWNER }}
