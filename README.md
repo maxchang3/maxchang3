@@ -6,7 +6,7 @@
   </samp>
 </p>
 <p align="center">
-  <kbd><a href="https://prs.maxchang.me/">Recent Pull Requess</a></kbd>
+  <kbd><a href="https://prs.maxchang.me/">Recent Pull Requests</a></kbd>
 </p>
 <p align="right"><sup><i>📫 Contact me: <a href="mailto:hi@maxchang.me">hi@maxchang.me</a></i></sup></p>
 <p align="left">
