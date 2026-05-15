@@ -3,10 +3,8 @@
     <a href="https://maxchang.me/">me</a> .
     <a href="https://maxchang.me/posts">posts</a> .
     <a href="https://maxchang.me/projects">projects</a>
+    <a href="https://maxchang.me/projects">pull-requests</a>
   </samp>
-</p>
-<p align="center">
-  <kbd><a href="https://prs.maxchang.me/">Recent Pull Requests</a></kbd>
 </p>
 <p align="right"><sup><i>📫 Contact me: <a href="mailto:hi@maxchang.me">hi@maxchang.me</a></i></sup></p>
 <p align="left">
