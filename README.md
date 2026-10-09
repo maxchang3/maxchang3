@@ -12,13 +12,14 @@
 <div align="right">
   <details>
     <summary>
-      <i>Currently seeking internship opportunities :) · 正在寻找实习机会！</i>
+      <i>Currently seeking internship opportunities :D · 在找实习😭</i>
     </summary>
     <p>
-      <sup><i>
-        I'm interested in AI Agents, AI for Science, and logical reasoning in LLMs.<br/>
-        Previously, I interned at Zhaopin, where I built a Text-to-DSL agent for querying data, along with its chat frontend.
-      </i></sup>
+      <i>
+       I'm interested in $\color{#8B5CF6}{\textsf{AI Agents}}\;\cdot\;\color{#0EA5E9}{\textsf{AI for Science}}\;\cdot\;\color{#10B981}{\textsf{Logical Reasoning in LLMs}}$ <br/>
+        Previously, I interned at Zhaopin, where I built a Text-to-DSL agent for querying data.<br/>
+        <kbd>Astro</kbd> · <kbd>Nuxt</kbd> · <kbd>Vite</kbd> · <kbd>Vercel AI SDK</kbd> · <kbd>PydanticAI</kbd>
+      </i>
     </p>
   </details>
 </div>
